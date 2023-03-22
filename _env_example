@@ -1,0 +1,47 @@
+
+
+## DATABASE_URL=postgres://myuser:mypass@localhost/somedatabase (full connection string)
+
+REDIS_SIDEKIQ_URL=redis://localhost:6379/0
+# REDIS_CACHE_URL=redis://localhost:6379/6  # Cache
+# REDIS_CART_URL=redis://localhost:6379/10 
+# Enabled origins
+CORS_ORIGINS=127.0.0.1:4000,localhost:4000,lvh.me:4000
+RAILS_ENV=development
+# Current environment
+RACK_ENV=development
+
+# Maximum sign in tries before account lock
+MAX_SIGNIN_ATTEMPTS = 5
+
+# jwt secret key
+# DEVISE_JWT_SECRET_KEY=81af99b774973818b5cc2f796563ec8c41b2e2f68009d02d156255fee13f37c832e293aa819ecafc9388e4f152876f377d8c50c5979eef3b9fd4c65546a6c0ef
+
+# Static files serving
+RAILS_SERVE_STATIC_FILES=true
+
+# Specify assets server host name, eg.: d2oek0c5zwe48d.cloudfront.net
+# ASSET_HOST=d2oek0c5zwe48d.cloudfront.net
+
+# Database name prefix
+# DATABASE_NAME=paste_database_prefix_here
+
+# Set Rollbar key for the app
+# ROLLBAR_ACCESS_TOKEN=your_key_here
+
+# We send devise email using this "from" address
+# MAILER_SENDER_ADDRESS=noreply@pharmcom.com
+
+# Enable basic auth to close the app from unauthorized viewers
+# AUTH_BASIC_REALM=your_application_name
+# AUTH_BASIC_PASS=your_password_here
+
+# Set single hostname
+# CANONICAL_HOST=paste_single_hostname_here
+
+# Google analytics
+# GA_TRACKER=your_ga_tracker_code_here
+
+# comma separated list of IP adresses
+# IP_WHITELIST=127.0.0.1
+
